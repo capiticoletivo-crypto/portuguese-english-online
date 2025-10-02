@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Antropologia Visual e a Gramática Oculta | Joseane Daher Idiomas</title>
+<meta name="description" content="Post sobre como a Antropologia Visual ajuda a entender a 'Gramática Oculta' na comunicação e aprendizado de idiomas.">
+<meta name="keywords" content="Antropologia Visual, Gramática Oculta, Aprendizado, Português, Inglês, Capiti, Joseane Daher, Huni Kuin, Amazônia">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+theme: { extend: { fontFamily: { sans: ['Inter','sans-serif'] }, colors: { primary:'#000000', secondary:'#333333' } } }
+}
+</script>
+<style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');</style>
+</head>
+<body class="font-sans bg-white text-gray-900 antialiased">
+
+<!-- Header -->
+<header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-md">
+<div class="container mx-auto px-6 py-4 flex justify-between items-center">
+<a href="index.html" class="text-2xl font-extrabold text-primary">Joseane Daher Idiomas</a>
+<nav class="hidden md:flex space-x-6 font-medium text-gray-700">
+<a href="index.html#about" class="hover:text-primary transition">Sobre Mim</a>
+<a href="index.html#lessons" class="hover:text-primary transition">Como São as Aulas</a>
+<a href="index.html#benefits" class="hover:text-primary transition">Benefícios</a>
+<a href="index.html#contact" class="hover:text-primary transition">Contato</a>
+<a href="blog.html" class="text-primary font-bold border-b-2 border-primary">Blog</a>
+</nav>
+<button id="mobile-menu-button" class="md:hidden text-primary">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+</svg>
+</button>
+</div>
+<div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+<a href="index.html#about" class="block px-6 py-3 text-gray-700 hover:bg-gray-50">Sobre Mim</a>
+<a href="index.html#lessons" class="block px-6 py-3 text-gray-700 hover:bg-gray-50">Como São as Aulas</a>
+<a href="index.html#benefits" class="block px-6 py-3 text-gray-700 hover:bg-gray-50">Benefícios</a>
+<a href="index.html#contact" class="block px-6 py-3 text-gray-700 hover:bg-gray-50">Contato</a>
+<a href="blog.html" class="block px-6 py-3 text-primary font-bold hover:bg-gray-50">Blog</a>
+</div>
+</header>
+
+<!-- Post Content -->
+<section class="py-20 container mx-auto px-6 max-w-4xl">
+<h1 class="text-4xl md:text-5xl font-extrabold text-primary mb-8">A Antropologia Visual e a Gramática Oculta</h1>
+<p class="text-sm text-gray-500 mb-6">Postado em 1 de Outubro de 2025</p>
+
+<p class="text-gray-700 mb-4">
+Minha jornada na Amazônia com os povos indígenas Huni Kuin me ensinou sobre a "Gramática Oculta" da comunicação—como gestos, contexto cultural, silêncios e observação se tornam essenciais no aprendizado de idiomas e compreensão cultural.
+</p>
+
+<p class="text-gray-700 mb-4">
+A Antropologia Visual é uma ferramenta poderosa para conectar teoria e prática. Ao observar imagens, rituais e interações culturais, conseguimos identificar padrões implícitos de comunicação e aplicá-los nas aulas de português e inglês para estrangeiros.
+</p>
+
+<p class="text-gray-700 mb-4">
+Em resumo, ir além da gramática formal e compreender o contexto cultural enriquece a aprendizagem e promove fluência real, preparando alunos para comunicação autêntica e intercâmbio cultural efetivo.
+</p>
+
+<a href="blog.html" class="text-secondary font-semibold hover:text-primary underline">Voltar para o Blog &rarr;</a>
+</section>
+
+<!-- Footer -->
+<footer class="bg-primary text-white py-10">
+<div class="container mx-auto px-6 text-center text-sm">
+<p>&copy; 2025 Joseane Daher Idiomas. Todos os direitos reservados.</p>
+</div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+const button = document.getElementById('mobile-menu-button');
+const menu = document.getElementById('mobile-menu');
+button.addEventListener('click', () => { menu.classList.toggle('hidden'); });
+});
+</script>
+</body>
+</html>
